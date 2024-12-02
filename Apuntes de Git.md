@@ -1,4 +1,4 @@
-# Apuntes de Git
+# Apuntes de Git y tal
 Apuntes sobre diferentes comandos de Git, ya sean para; crear un repositorio, subir cambios realizados (tanto en el back como en el front), arreglar diferentes fallos que hayamos podido hacer...
 
 ## Indice
@@ -21,6 +21,7 @@ Apuntes sobre diferentes comandos de Git, ya sean para; crear un repositorio, su
   - [Redis](#redis)
   - [Celery](#celery)
   - [Arrancar test](#arrancar-test)
+- [Trabajando con Poetry](#poetry)
 - [Referencias](#referencias)
 ##
 
@@ -405,6 +406,18 @@ Desde pycharm podremos añadir una nueva configuración para que se encargue de 
 <br><br>
 
 
+## Poetry
+
+Si se esta usando poetry en el proyecto, que es una herramienta para trabajar con las dependencias que pueda tener nuestro proyecto, se puede ir directamente a la información de poetry o buscar la información necesaria por internet. 
+
+<br>
+
+Si se quiere instalar algo nuevo, en vez de instalarlo directamente con sudo, es mejor añadirlo a poetry, para que el resto de miembros también lo tengan y no les den problemas.
+```bash
+  poetry add [paquete]
+```
+- [paquete] => especificar el paquete que queramos añadir a poetry
+
 
 ### Referencias
 
@@ -412,3 +425,4 @@ Desde pycharm podremos añadir una nueva configuración para que se encargue de 
 - [Pretty Git Branch - StackOverflow](https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs)
 - [Customizing git log - Justin Joyce](https://justinjoyce.dev/customizing-git-log-format/)
 - [Pretty formats - git](https://git-scm.com/docs/pretty-formats)
+- [Poetry](https://python-poetry.org/docs/)
