@@ -158,6 +158,12 @@ Así directamente crearemos una nueva rama con el nombre [rama], si por algún c
 Si en algún momento necesitamos una migración vacía para añadir alguna funcionalidad de conversión de datos o para llenar nuestra base de datos con datos falsos para poder ver que lo que hemos hecho nos devuelva algo, podremos hacerlo facilmente con el siguiente comando.
 
 ```bash
+  python manage.py makemigrations [carpeta] --empty
+```
+
+Esto nos creara una migracion vacia de manera automatica. El nombre tambien sera automatico, aunque luego podemos cambiarlo nosotros mismos segun lo veamos. Lo mejor es que tenga un nombre identificativo para que el resto de personas que estén trabajando, al verlo ya sepan de que va.
+
+```bash
   python manage.py makemigrations [carpeta] --name [nombre] --empty
 ```
 - [carpeta] => el lugar donde queremos crear nuestra nueva migración.
